@@ -2,10 +2,10 @@
 #include<eigen3/Eigen/Core>
 #include<eigen3/Eigen/Dense>
 #include<iostream>
-#include<numbers>
+constexpr double MY_PI = 3.1415926;
 
 float deg2rad(float deg) {
-    return deg / 180.f * std::numbers::pi;
+    return deg / 180.f * MY_PI;
 }
 
 int main() {
